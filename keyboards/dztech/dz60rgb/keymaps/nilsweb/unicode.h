@@ -44,3 +44,9 @@ const qk_ucis_symbol_t ucis_symbol_table[] = UCIS_TABLE(
   UCIS_SYM("rarr", 0x2192),
   UCIS_SYM("darr", 0x2193)
 );
+
+#define UK_EURO X(EURO)
+#define UK_AUML XP(AUML,AUML_S)
+#define UK_OUML XP(OUML,OUML_S)
+#define UK_UUML XP(UUML,UUML_S)
+#define UK_ESZT XP(ESZT,ESZT_S)
